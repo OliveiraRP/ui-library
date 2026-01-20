@@ -1,0 +1,15 @@
+export const ICON = {
+  FALLBACK: "TbQuestionMark",
+  ADD: "TbPlus",
+  SETTINGS: "TbSettings",
+  BACK: "TbChevronLeft",
+  LOGIN: "TbLogin2",
+  KEY: "TbKey",
+  CLOSE: "TbX",
+  ARCHIVE: "TbArchive",
+  EYE: "TbEye",
+  WALLET: "TbWallet",
+  CHART: "TbChartDonut",
+  CHECK: "TbCheck",
+  NEXT: "TbChevronRight",
+};

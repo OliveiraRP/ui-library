@@ -1,0 +1,21 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border-radius: 32px;
+  font-size: 16px;
+  background-color: var(--color-bg-elevated);
+  border-color: var(--color-border-strong);
+  border-width: 1px;
+  color: var(--color-text-primary);
+}
+
+.iconButton {
+  padding: 8px !important;
+}
+
+img {
+  height: 28px;
+  object-fit: contain;
+}

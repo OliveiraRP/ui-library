@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  --list-bg: var(--color-bg-elevated);
+  --divider-color: var(--color-bg-hover);
+  background-color: var(--list-bg);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.elevatedList {
+  --list-bg: var(--color-bg-hover);
+  --divider-color: var(--color-bg-highlight);
+}
+
+.list > * {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.list > *:not(:last-child) {
+  position: relative;
+  padding-bottom: 16px;
+}
+
+.list > *:not(:first-child) {
+  position: relative;
+  padding-top: 16px;
+}
+
+.list > *:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+  left: 16px;
+  height: 1px;
+  background-color: var(--divider-color);
+}
+
+.spacedList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
